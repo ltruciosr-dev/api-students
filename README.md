@@ -27,14 +27,14 @@ Ensure you have the following installed:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-repo/student-management.git
-   cd student-management
+   git clone https://github.com/your-repo/api-students.git
+   cd api-students
    ```
 
 2. **Set Up the Database**
-   Run the `create_students_table.py` script to initialize the SQLite database:
+   Run the `db.py` script to initialize the SQLite database:
    ```bash
-   python create_students_table.py
+   python db.py
    ```
 
 3. **Start the Flask Application**
@@ -120,7 +120,7 @@ Ensure you have the following installed:
 
 ## File Structure
 
-- **`create_students_table.py`**
+- **`db.py`**
   - Script to initialize the SQLite database and create the `students` table.
 
 - **`app.py`**
